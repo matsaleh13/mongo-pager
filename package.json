@@ -1,0 +1,42 @@
+{
+  "name": "mongo-pager",
+  "version": "0.0.1",
+  "description": "Support for paging queries of MongoDB collections.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matsaleh13/mongo-pager.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "query",
+    "find",
+    "paging",
+    "collection"
+  ],
+  "author": "Matthew C. Walker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matsaleh13/mongo-pager/issues"
+  },
+  "homepage": "https://github.com/matsaleh13/mongo-pager#readme",
+  "dependencies": {
+    "@types/lodash": "^4.14.69",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.41",
+    "@types/mongodb": "^2.2.7",
+    "@types/node": "^8.0.13",
+    "eslint": "^4.2.0",
+    "mocha": "^3.4.2",
+    "mongodb": "^2.2.30",
+    "typescript": "^2.4.1",
+    "typescript-eslint-parser": "^4.0.0"
+  }
+}
