@@ -1,6 +1,6 @@
 # .eslintrc.yaml
 ---
-  extends: 
+  extends: eslint:recommended
   env:
     node: true
     mocha: true
@@ -9,5 +9,5 @@
   parser: typescript-eslint-parser
   parserOptions:
     sourceType: module
-    ecmaFeatures: 
+    ecmaFeatures:
       modules: true

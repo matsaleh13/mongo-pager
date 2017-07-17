@@ -26,7 +26,7 @@ import * as _ from "lodash";
  * @param {Number} [pgQuery] JS object containing paging query criteria. These define the starting point of each page of the results. Pass null to retrieve the first page.
  * @param {Function} [done] Completion callback. Params: (err, pagedResults, pgNextPageArgs). If pagedResults.length == 0, pgNextPageArgs is undefined.
  */
-function _findWithPaging(collection:Collection, query:Object, projection:Object, sortKey:Object, pgLimit:number, pgQuery:Object, done:Function) {
+export function findWithPaging(collection:Collection, query:Object, projection:Object, sortKey:Object, pgLimit:number, pgQuery:Object, done:Function) {
   // Logical query parameters.
   const queryParams = {
     $and: [

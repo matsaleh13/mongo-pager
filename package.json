@@ -33,9 +33,12 @@
     "@types/mocha": "^2.2.41",
     "@types/mongodb": "^2.2.7",
     "@types/node": "^8.0.13",
+    "chai": "^4.1.0",
     "eslint": "^4.2.0",
     "mocha": "^3.4.2",
+    "mongo-mock": "^2.4.0",
     "mongodb": "^2.2.30",
+    "mongoose": "^4.11.3",
     "typescript": "^2.4.1",
     "typescript-eslint-parser": "^4.0.0"
   }
